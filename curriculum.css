@@ -1,0 +1,15 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("assets/bgtce3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+#navitem{
+    color: black;
+} 
+.topnav-right {
+   float: right;
+}
+.topnav-left {
+   float: left;
+}
