@@ -1,1 +1,1 @@
-# CurrriculumDesignApp
+# CurriculumDesignApp
