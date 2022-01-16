@@ -39,29 +39,27 @@
     <link rel="stylesheet" href="curriculum.css">
 </head>
 <body>
-    <nav id="navibar" class="navbar navbar-expand-lg fixed-top" style="background-color: #2C5E91;">
-            <div class="container-fluid"> 
-              <div class="navbar-header navbar-left">
-                  
-                <a class="navbar-brand navbar-left" href="home.html">
-            </div>
-            <img id="backgroundimg" class="navbar navbar-left" src="assets/tce0.png" height="40" alt="TCE">
-          </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul id="navitem" class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link hoverCursor" data-toggle="modal" data-target="#exampleModalCenter">LOGIN</a>
-            </li>
-            </ul>      
+  
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #2C5E91;">
+    <div class="container-fluid"> 
+      <div class="navbar-header">
+        <a class="navbar-brand navbar-left" href="home.html">
     </div>
-    </div>
-    </nav>
+    <img id="backgroundimg" class="navbar navbar-left" src="assets/tce0.png" height="40" alt="TCE">
+  </a>
 
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul id="navibar" class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link hoverCursor" data-toggle="modal" data-target="#exampleModalCenter">LOGIN</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link hoverCursor" data-toggle="modal" data-target="#exampleModalCenterregister">REGISTER</a>
+    </li>
+    </ul>      
+</div>
+</div>
+</nav>
     <!-- Login Page -->
 
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -75,16 +73,16 @@
           </button>
         </div>
         <div class="container pt-4 px-5 pb-5">
-          <form>
+          <form action="login.php" method="post">
             <!-- Email input -->
             <div class="form-outline mb-4">
               <label class="form-label" for="email">UserName</label>
-              <input type="text" id="name" name="name" class="form-control form-control-lg" />
+              <input type="text" id="name" name="name" class="form-control form-control-lg" required/>
             </div>
             <!-- Password input -->
             <div class="form-outline mb-4">
               <label class="form-label" for="password">Password</label>
-              <input type="password" name="password" id="password" class="form-control form-control-lg" />
+              <input type="password" name="password" id="password" class="form-control form-control-lg" required/>
             </div>
             <div class="d-flex justify-content-around align-items-center mb-4">
               <!-- Checkbox -->
@@ -95,6 +93,46 @@
             </div>
             <!-- Submit button -->
             <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- REGISTER page -->
+
+  <div class="modal fade" id="exampleModalCenterregister" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title pl-4" id="exampleModalLongTitle">REGISTER</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="container pt-4 px-5 pb-5">
+          <form action="register.php" method="post">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <label class="form-label" for="email">UserName</label>
+              <input type="text" id="name" name="name" class="form-control form-control-lg" required/>
+            </div>
+            <div class="form-outline mb-4">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" name="email" id="email" class="form-control form-control-lg" required/>
+            </div>
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <label class="form-label" for="password">Password</label>
+              <input type="password" name="password" id="password" class="form-control form-control-lg" required/>
+            </div>
+            <div class="form-outline mb-4">
+              <label class="form-label" for="cpassword">Confirm Password</label>
+              <input type="password" name="cpassword" id="cpassword" class="form-control form-control-lg" required/>
+            </div>
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-lg btn-block">REGISTER</button>
           </form>
         </div>
       </div>

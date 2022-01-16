@@ -28,9 +28,9 @@ body{
 #navitem{
     color: black;
 }
-#navibar{
+/* #navibar{
   background-color: #333;
-}
+} */
 #navibar a{
   float: left;
   color: white;
@@ -77,7 +77,7 @@ body{
 }
 
 .topnav-right {
-   float: right;
+   float: left;
 }
 .topnav-left {
    float: left;

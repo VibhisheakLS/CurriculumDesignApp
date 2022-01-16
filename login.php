@@ -8,8 +8,8 @@ $name = $_POST['name'];
 $paswd = $_POST['password'];
 
 $host = "localhost";
-$user = "Karthik";
-$password = "1234";
+$user = "root";
+$password = "";
 $db_name = "course_out_comes";
 $can_login = true;
 
@@ -23,14 +23,8 @@ try {
         // output data of each row
         while ($row = mysqli_fetch_assoc($result)) {
             if ($name == $row['name'] && md5($paswd) == $row['password']) {
-                $_SESSION['subject_1'] = $row['subject_1'];
-                $_SESSION['subject_2'] = $row['subject_2'];
-                $_SESSION['subject_3'] = $row['subject_3'];
-                $_SESSION['subject_4'] = $row['subject_4'];
-                $_SESSION['subject_5'] = $row['subject_5'];
-                $_SESSION['subject_6'] = $row['subject_6'];
-                $_SESSION['subject_7'] = $row['subject_7'];
-                header("Location: ../home.php ");
+
+                header("Location: ./tab1.html");
             }else{
                 $can_login =false;
             }
