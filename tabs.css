@@ -4,7 +4,20 @@ body{
     background-size: 100%;
     margin-top: 5%;
  }
-
+ #boxcover2{
+  background-color: rgb(221, 221, 221);
+  height: 100px 100px;
+  width: 90px 90px;
+  padding: 50px 50px 20px 40px;
+  margin: 20px;
+ }
+ #boxcover3{
+  background-color: rgb(221, 221, 221);
+  height: 100px 100px;
+  width: 90px 90px;
+  padding: 50px 50px 1px 50px;
+  margin: 20px;
+ }
  #navibar a{
   float: left;
   color: white;
@@ -27,6 +40,7 @@ body{
  .hoverCursor{
    cursor: pointer;
  }
+ 
  #mainNavbar .nav-link{
    color: white;
    text-shadow: 0px 2px 3px rgba(0,0,0,0.4),
@@ -46,4 +60,7 @@ body{
 }
 .topnav-left {
    float: left;
+}
+#right{
+  float:right;
 }

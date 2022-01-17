@@ -24,7 +24,7 @@ try {
         while ($row = mysqli_fetch_assoc($result)) {
             if ($name == $row['name'] && md5($paswd) == $row['password']) {
 
-                header("Location: ./tab1.html");
+                header("Location: ./curriculum.html");
             }else{
                 $can_login =false;
             }

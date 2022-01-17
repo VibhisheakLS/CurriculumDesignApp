@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -74,11 +73,11 @@
 </nav>
 <br><br>
   <h2>Course Outcome</h2><br>
+  <div id="boxcover2">
   <form>
-    <div class="custom-select">
 
-      <label for="usr">CO Number</label>
-      <select class="mdb-select md-form colorful-select dropdown-primary">
+      <label for="usr">CO Number</label><br>
+      <select class="mdb-select md-form">
 
         <option>Choose the CO Number</option><br>
         <option value="1">CO1</option>
@@ -100,16 +99,17 @@
         <div class="form-outline">
         <label for="user">Weightage</label>
         <input type="text" class="form-control" id="user" width="50%"><br>
-        <button type="submit" class="btn btn-primary">Save</button><br><br>
-        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button id="right" type="submit" class="btn btn-danger">Cancel</button><br><br>
         </div>
   </form>
-<hr><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr><br>
+  </div>
+<br><br><hr><br><br>
 <h2>CO Mapping with CDIO Curriculum Framework </h2><br>
-  <form>
-    <div class="custom-select">
-      <label for="usr">CO #</label>
-      <select class="mdb-select md-form colorful-select dropdown-primary">
+<div id="boxcover3">  
+<form>
+      <label for="usr">CO Number</label><br>
+      <select class="mdb-select md-form">
         
         <option selected>Choose the CO Number</option><br>
         <option value="1">CO1</option>
@@ -152,11 +152,12 @@
             <label for="comment">CDIO Curriculum Components </label>
             <input type="text" class="form-control" id="user"><br>
             <button type="submit" class="btn btn-primary">Save</button>
+            <button id="right" type="submit" class="btn btn-danger">Cancel</button>
             <br><br><br>
             </div>
             </div>
-            </div>
         </form>
+        </div>
   </div>
 </body>
 </html>
