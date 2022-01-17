@@ -49,7 +49,7 @@
     <ul id="navibar" class="navbar-nav ml-auto">
         
       <li class="nav-item">
-          <a class="nav-link" href="tab1.html" onclick="tabOpen(event,'tab1')">Preamble</a>
+          <a class="nav-link" href="tab1.html" onclick="tabOpen(event,'tab1')">Tab-1</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="tab2.html" onclick="tabOpen(event,'tab2')">Tab-2</a>
@@ -71,10 +71,13 @@
     </div>
     </nav>
     <br><br>
+    <h2 style="text-align: center;">TCE CURRICULUM</h2><br>
 <div class="container">
-    <h2>TCE Curriculum</h2><br>
+    <div id="boxcover1">
+      <form>
     <div class="form-outline">
         <label for="user">Course Code</label>
+        
     <input type="text" class="form-control" id="user" width="50%"><br>
     <label for="user">Course name</label>
     <input type="text" class="form-control" id="user" width="50%"><br>
@@ -83,5 +86,11 @@
     <label for="comment">Prerequisite</label>
     <textarea class="form-control" rows="5" id="comment"></textarea><br>
 
-    <button type="submit" class="btn btn-primary">Save</button><br><br><br>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button id="right" type="submit" class="btn btn-danger">Cancel</button><br><br>
 </form>
+</div>
+</div>
+</div>
+</body>
+</html>

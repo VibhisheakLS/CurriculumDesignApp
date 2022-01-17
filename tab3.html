@@ -27,6 +27,8 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/fontawesome.min.css" integrity="sha512-r9kUVFtJ0e+8WIL8sjTUlHGbTLwlOClXhVqGgu4sb7ILdkBvM2uI+n/Fz3FN8u3VqJX7l9HLiXqXxkx2mZpkvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Curriculum | TCE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -49,7 +51,7 @@
     <ul id="navibar" class="navbar-nav ml-auto">
         
       <li class="nav-item">
-          <a class="nav-link" href="tab1.html" onclick="tabOpen(event,'tab1')">Tab-1</a>
+          <a class="nav-link" href="tab01.html" onclick="tabOpen(event,'tab1')">Tab-1</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="tab2.html" onclick="tabOpen(event,'tab2')">Tab-2</a>
@@ -73,11 +75,11 @@
   <!-- <div class="container">
     <div class="shadow-lg p-3 mb-5 bg-white rounded">
  <div class="p-5 bg-info"> -->
-    <br><br>
-<h2>Mapping with Programme Outcomes and Programme Specific Outcomes	</h2><br>
+    <br><br><br><br>
+<h2 style="text-align: center;">MAPPING WITH PROGRAMME OUTCOMES AND PROGRAMME SPECIFIC OUTCOMES</h2><br>
   <form>
-    <div class="custom-select" >
-      <label for="usr">COs</label>
+    <div id="boxcover4">
+      <label for="usr">CO Number</label>
       <select class="mdb-select md-form colorful-select dropdown-primary">
         
         <option selected>Choose the CO Number</option><br>
@@ -94,6 +96,7 @@
         <option value="11">CO11</option>
         <option value="12">CO12</option>
        </select><br>
+     
        <br>
        <label for="PO1">PO1 : </label>
                 <input class="" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1">
@@ -190,8 +193,10 @@
                 <label class="" for="inlineRadio2">M</label>
                 <input class="" type="radio" name="inlineRadioOptions36" id="inlineRadio3" value="option3">
                 <label class="" for="inlineRadio3">L</label><br>
-          <hr>    
-          
+              </div>
+                <hr>   
+       
+          <div id="boxcover6">
             <label for="comment">PSO1 : </label>
                 <input class="" type="radio" name="inlineRadioOptions37" id="inlineRadio1" value="option1">
                 <label class="" for="inlineRadio1">S</label>
@@ -213,11 +218,13 @@
                 <label class="" for="inlineRadio2">M</label>
                 <input class="" type="radio" name="inlineRadioOptions45" id="inlineRadio3" value="option3">
                 <label class="" for="inlineRadio3">L</label><br>
-              <br><br>
+              <br>
             <button type="submit" class="btn btn-primary">Save</button>
-            <br><br><br>
-        </div>
+            <button id="right" type="submit" class="btn btn-danger">Cancel</button>
+            <br><br>
+            </div>
         </form>
+        </div>
         </div>
 </body>
 </html>

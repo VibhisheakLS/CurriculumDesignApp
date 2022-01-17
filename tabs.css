@@ -4,6 +4,13 @@ body{
     background-size: 100%;
     margin-top: 5%;
  }
+ #boxcover1{
+  background-color: rgb(221, 221, 221);
+  height: 100px 100px;
+  width: 90px 90px;
+  padding: 50px 50px 20px 40px;
+  margin: 20px;
+ }
  #boxcover2{
   background-color: rgb(221, 221, 221);
   height: 100px 100px;
@@ -16,6 +23,28 @@ body{
   height: 100px 100px;
   width: 90px 90px;
   padding: 50px 50px 1px 50px;
+  margin: 20px;
+ }
+ #boxcover4{
+  background-color: rgb(221, 221, 221);
+  height: 100px 100px;
+  width: 90px 90px;
+  padding: 50px 50px 20px 40px;
+  margin: 20px;
+ }
+ #boxcover5{
+  background-color: rgb(221, 221, 221);
+  height: 100px 100px;
+  width: 90px 90px;
+  padding: 50px 50px 20px 40px;
+  margin: 20px;
+ }
+
+ #boxcover6{
+  background-color: rgb(221, 221, 221);
+  height: 100px 100px;
+  width: 90px 90px;
+  padding: 50px 50px 20px 40px;
   margin: 20px;
  }
  #navibar a{
@@ -52,7 +81,7 @@ body{
    color: #dd4132ff;
  }
 #navitem{
-    color: black;
+    color: black; 
 }
 
 .topnav-right {
