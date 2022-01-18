@@ -1,3 +1,6 @@
+<?php
+
+echo '
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,46 +33,12 @@
 </head>
 
 <body>
-  <div class="container">
-  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #2C5E91;">
-    <div class="container-fluid"> 
-      <div class="navbar-header navbar-left">
-          
-      <a class="navbar-brand navbar-left" href="home.html">
-    </div>
-    <img class="navbar navbar-left" src="assets/tce0.png" height="40" alt="TCE">
-  </a>
+  <div class="container">';
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
- 
-<div class="collapse navbar-collapse" id="topnav-left">
-<ul id="navibar" class="navbar-nav ml-auto">
-    
-  <li class="nav-item">
-      <a class="nav-link" href="tab01.html" onclick="tabOpen(event,'tab1')">Tab-1</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="tab2.html" onclick="tabOpen(event,'tab2')">Tab-2</a>
-    </li> 
-    <li class="nav-item">
-        <a class="nav-link" href="tab3.html" onclick="tabOpen(event,'tab3')">Tab-3</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="tab4.html" onclick="tabOpen(event,'tab4')">Tab-4</a>
-      </li> 
-      <li class="nav-item">
-        <a class="nav-link" href="tab5.html" onclick="tabOpen(event,'tab5')">Tab-5</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="tab6.html" onclick="tabOpen(event,'tab6')">Tab-6</a>
-      </li>
-      </ul>      
-</div>
-</div>
-</nav>
-<br><br>
+  include "nav.html";
+
+echo '
+  <br><br>
   <h2 style="text-align: center;">COURSE OUTCOMES</h2><br>
   <div id="boxcover2">
   <form>
@@ -158,4 +127,4 @@
         </div>
   </div>
 </body>
-</html>
+</html> ';?>
