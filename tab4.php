@@ -1,3 +1,5 @@
+<?php
+echo '
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="icon" href="assets/tceIcon.jpg">
+        <link rel="icon" href="assets/tce1logo.png">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="tabs.css">
@@ -28,15 +30,23 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
        
 </head>
-    <body>
-        <div class="container">
+    <body>';
+
+include 'header.html';
+
+include 'nav.html';
+
+echo '
+
+<div class="container">
+<br><br>
             <h2 style="text-align: center;">Assessment Pattern: Cognitive Domain </h2><br>
-            <div id="boxcover3">  
+            <div id="boxcover4">  
             <form>
-                  <label for="usr">Cognitive Domain<br>
+                  <label for="usr">Cognitive Domain</label>
                   <select class="mdb-select md-form">
                     
-                    <option selected>Choose the Domain</option><br>
+                    <option selected>Choose the Domain</option>
                     <option value="1">Continuous Assessment Test 1</option>
                     <option value="2">Continuous Assessment Test 2</option>
                     <option value="3">Continuous Assessment Test 3</option>
@@ -86,4 +96,5 @@
   
   </div>
     </body>
-</html>
+</html>';
+?>

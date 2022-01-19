@@ -24,7 +24,7 @@ try {
         while ($row = mysqli_fetch_assoc($result)) {
             if ($name == $row['name'] && md5($paswd) == $row['password']) {
 
-                header("Location: ./curriculum.html");
+                header("Location: ./curriculum.php");
             }else{
                 $can_login =false;
             }
@@ -37,7 +37,7 @@ try {
             <p>Invalide Credentials ! Pls Check</p>
         </div>
         <div style='text-align:center'>
-        <button style='padding: 0.5em;margin:1em;'><a href='index.php'>Try Again</a></button>
+        <button style='padding: 0.5em;margin:1em;'><a href='home.html'>Try Again</a></button>
         </div> ";
     }
 

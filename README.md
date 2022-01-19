@@ -1,2 +1,2 @@
 # CurriculumDesignApp
-this is vibisowmi
+this is us

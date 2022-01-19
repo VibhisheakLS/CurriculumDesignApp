@@ -40,7 +40,7 @@ if($is_already_exist){
                 <p>You can access this wesbite for creating COs !</P>
             </div>
             <div style='text-align:center'>
-                <button style='padding: 0.5em;margin:1em;'><a href='../index.php'>HOME</a></button>
+                <button style='padding: 0.5em;margin:1em;'><a href='../home.html'>HOME</a></button>
             </div>";
         } else {
             echo "Connection failed " . mysqli_error($conn);

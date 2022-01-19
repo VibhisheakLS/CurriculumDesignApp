@@ -1,38 +1,71 @@
-<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #2C5E91;">
-    <div class="container-fluid">
-        <div class="navbar-header navbar-left">
+<!DOCTYPE html>
+<html lang="en">
 
-            <a class="navbar-brand navbar-left" href="home.html">
-        </div>
-        <img class="navbar navbar-left" src="assets/tce0.png" height="40" alt="TCE">
-        </a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="assets/tce_logo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="tabs.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Curriculum | TCE</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 1px;
+            width: 150px;
+            background-color: #2C5E91;
+            position: fixed;
+        }
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
+li a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+li a.active {
+  background-color: #04AA6D;
+  text-decoration: none;
+  color: white;
+}
 
-        <div class="collapse navbar-collapse" id="topnav-left">
-            <ul id="navibar" class="navbar-nav ml-auto">
+li a:hover:not(.active) {
+  background-color: #ffffff;
+  text-decoration: none;
+  color: black;
+}
 
-                <li class="nav-item">
-                    <a class="nav-link" href="tab1.php" onclick="tabOpen(event,'tab1')">Tab-1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tab2.php" onclick="tabOpen(event,'tab2')">Tab-2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tab3.php" onclick="tabOpen(event,'tab3')">Tab-3</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tab4.php" onclick="tabOpen(event,'tab4')">Tab-4</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tab5.php" onclick="tabOpen(event,'tab5')">Tab-5</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tab6.php" onclick="tabOpen(event,'tab6')">Tab-6</a>
-                </li>
+    </style>
+</head>
+
+<body>   
+        <div class="row">
+            <div class="col-md-2">
+            <div id="vert-nav">
+            <ul>
+            <li><a href="tab1.php">Tab-1</a></li>
+            <li><a href="tab2.php">Tab-2</a></li>
+            <li><a href="tab3.php">Tab-3</a></li>
+            <li><a href="tab4.php">Tab-4</a></li>
+            <li><a href="tab5.php">Tab-5</a></li>
+            <li><a href="tab6.php">Tab-6</a></li>
+            <li><a href="#">Tab-7</a></li>
+            <li><a href="#">Tab-8</a></li>
+            <li><a href="#">Tab-9</a></li>
             </ul>
-        </div>
-    </div>
-</nav>
+          </div>
+          </div>
+          </div>
+</body>
+</html>
