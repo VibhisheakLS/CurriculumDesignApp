@@ -40,7 +40,8 @@ include 'nav.html';
         echo '
         <div class="container">
         <br><br>
-        <h2 style="text-align: center;">Concept Map</h2><br>
+        <div style="margin-left:10%;">
+        <h2 style="text-align: center;">Concept Map</h2><br></div>
             <div id="boxcover6">  
             
                 <div class="input-group mb-3">

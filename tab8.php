@@ -1,3 +1,5 @@
+<?php
+echo '
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,9 +31,18 @@
        
 </head>
     <body>
-        <div class="container">
+';
+
+include 'header.html';
+
+include 'nav.html';
+echo '
+<br><br>
+<div class="container">
+<div style="margin-left:10%;">
 <h2 style="text-align: center;">Course Contents and Lecture Schedule</h2><br>
-  <div id="boxcover2">
+</div>
+  <div id="boxcover9">
   <form>
 
       <label for="usr">Module No.</label><br>
@@ -124,3 +135,7 @@
         </div>
   </form>
   </div>
+  </div>
+  </body>
+  </html>'
+?>

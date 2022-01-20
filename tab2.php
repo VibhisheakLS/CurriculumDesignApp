@@ -39,7 +39,9 @@ echo '
 
 echo '
   <br><br>
+  <div style="margin-left:10%;">
   <h2 style="text-align: center;">COURSE OUTCOMES</h2><br>
+  </div>
   <div id="boxcover2">
   <form>
 
@@ -72,7 +74,9 @@ echo '
   </form>
   </div>
 <br><br>
+<div style="margin-left:10%;">
 <h2 style="text-align: center;">CO MAPPING WITH CDIO CURRICULUM FRAMEWORK </h2><br>
+</div>
 <div id="boxcover3">  
 <form>
       <label for="usr">CO Number</label><br>

@@ -54,6 +54,30 @@ body{
   margin: 20px;
   margin-left: 200px;
  }
+ #boxcover7{
+  background-color: rgb(221, 221, 221);
+  height: 100px 100px;
+  width: 90px 90px;
+  padding: 50px 50px 20px 40px;
+  margin: 20px;
+  margin-left: 200px;
+ }
+ #boxcover8{
+  background-color: rgb(221, 221, 221);
+  height: 100px 100px;
+  width: 90px 90px;
+  padding: 50px 50px 20px 40px;
+  margin: 20px;
+  margin-left: 200px;
+ }
+ #boxcover9{
+  background-color: rgb(221, 221, 221);
+  height: 100px 100px;
+  width: 90px 90px;
+  padding: 50px 50px 20px 40px;
+  margin: 20px;
+  margin-left: 200px;
+ }
  #navibar a{
   float: left;
   color: white;

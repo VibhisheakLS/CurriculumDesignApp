@@ -26,6 +26,18 @@
         font-family: 'Yeseva One';
         font-size: 22px;
         }
+        #navibar1 a{
+        float: left;
+        color: white;
+        text-align: center;
+        text-decoration:none;
+        font-size: 17px;
+        }
+        #navibar1 a:hover
+        {
+            
+            color: black;
+        }
     </style>
 
 </head>
@@ -35,23 +47,15 @@
     <div class="container-fluid">
         <div class="navbar-header navbar-left">
 
-            <a class="navbar-brand navbar-left" href="home.html">
+            <a class="navbar-brand navbar-left" href="curriculum.php">
         </div>
-        <img class="navbar navbar-left" src="assets/tce1logo.png" width = "80px" height="60px" alt="TCE">
+        <img class="navbar navbar-left" src="assets/tce1logo.png" width = "70px" height="50px" alt="TCE">
         </a>
         <div id="headr">
             <text>THIAGARAJAR COLLEGE OF ENGINEERING</text>
         </div>
-        
-
-
-        <div class="collapse navbar-collapse" id="topnav-left">
-            <ul id="navibar" class="navbar-nav ml-auto">
-
-                <li class="nav-item">
-                    <a class="nav-link" href="home.html" onclick="tabOpen(event,'tab1')"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i></a>
-                </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navibar1">
+            <a class="nav-item" href="home.html" onclick="tabOpen(event,'tab1')"><i class="fa fa-sign-out-alt" aria-hidden="true"></i></a> 
         </div>
     </div>
 </nav>

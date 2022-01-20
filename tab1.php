@@ -39,8 +39,9 @@ include 'nav.html';
 echo '
 
     <br><br>
-
+    <div style="margin-left:10%;">
     <h2 style="text-align: center;">TCE CURRICULUM</h2><br>
+    </div>
     <div class="container">
         <div id="boxcover1">
             <form>
@@ -60,6 +61,7 @@ echo '
             </form>
             </div>
         </div>
+    </div>
     </div>
 </body>
 

@@ -1,3 +1,5 @@
+<?php
+echo '
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,10 +30,16 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
        
 </head>
-    <body>
-        <div class="container">
-            <h2 style="text-align: center;">Syllabus</h2><br>
-            <div id="boxcover3">
+    <body>';
+    include 'header.html';
+
+include 'nav.html';
+echo '
+<br><br>
+<div class="container">
+<div style="margin-left:10%;">
+            <h2 style="text-align: center;">Syllabus</h2><br></div>
+            <div id="boxcover7">
             
             <form>
                 <label for="comment"></label>
@@ -41,8 +49,9 @@
                 </div>
         
             </form>
-            <h2 style="text-align: center;">Learning Resources</h2><br>
-            <div id="boxcover3">
+            <div style="margin-left:10%;">
+            <h2 style="text-align: center;">Learning Resources</h2><br></div>
+            <div id="boxcover8">
             
             <form>
                 <label for="comment"></label>
@@ -55,4 +64,5 @@
   
   </div>
 </body>
-</html>
+</html>';
+?>

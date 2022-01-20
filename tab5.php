@@ -39,7 +39,8 @@ include 'nav.html';
 echo '
 <div class="container">
 <br><br>
-<h2 style="text-align: center;">Sample Questions for Course Outcome Assessment</h2><br>
+<div style="margin-left:10%;">
+<h2 style="text-align: center;">Sample Questions for Course Outcome Assessment</h2><br></div>
             <div id="boxcover5">  
             <form>
                 <label for="comment">Course Outcome 1 (CO1):</label>

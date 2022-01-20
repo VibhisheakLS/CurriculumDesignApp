@@ -39,8 +39,9 @@ include 'nav.html';
 echo '
 
 <div class="container">
-<br><br>
+<br><br>        <div style="margin-left:10%;">
             <h2 style="text-align: center;">Assessment Pattern: Cognitive Domain </h2><br>
+            </div>
             <div id="boxcover4">  
             <form>
                   <label for="usr">Cognitive Domain</label>
@@ -69,9 +70,11 @@ echo '
                     <input type="text" class="form-control" id="user" width="50%"><br>
                     <button type="submit" class="btn btn-primary">Save</button>
             <button id="right" type="submit" class="btn btn-danger">Cancel</button>
-                                </div>
+                                </div><br>
+        <div style="margin-left:10%;">
             <h2 style="text-align: center;">Assessment Pattern: Psychomotor</h2><br>
             <h3 style="text-align: center;">Psychomotor skill</h3><br>
+        </div>
 
   <div id="boxcover2">
   <form>
