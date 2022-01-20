@@ -46,7 +46,7 @@ echo '
 </div>
   <form>
     <div id="boxcover4">
-      <label for="usr">CO Number</label>
+      <label for="usr">CO Number</label><br>
       <select class="mdb-select md-form colorful-select dropdown-primary">
         
         <option selected>Choose the CO Number</option><br>

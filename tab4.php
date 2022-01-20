@@ -44,7 +44,7 @@ echo '
             </div>
             <div id="boxcover4">  
             <form>
-                  <label for="usr">Cognitive Domain</label>
+                  <label for="usr">Cognitive Domain</label><br>
                   <select class="mdb-select md-form">
                     
                     <option selected>Choose the Domain</option>
@@ -55,7 +55,7 @@ echo '
                     <option value="5">Assignment 2</option>
                     <option value="6">Assignment 3</option>
                     <option value="7">Terminal Examination</option>
-                   </select> </label><br>
+                   </select> </label><br><br>
                    <label for="user">Remember</label>
                     <input type="text" class="form-control" id="user" width="50%"><br>
                     <label for="user">Understand</label>

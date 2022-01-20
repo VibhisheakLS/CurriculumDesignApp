@@ -32,13 +32,10 @@ try {
     }
 
     if(!$can_login){
-        echo "
-        <div style='background-color:blue;padding:5px;text-align:center;color:white'>
-            <p>Invalide Credentials ! Pls Check</p>
-        </div>
-        <div style='text-align:center'>
-        <button style='padding: 0.5em;margin:1em;'><a href='home.html'>Try Again</a></button>
-        </div> ";
+        echo '<script language="javascript">';
+        echo 'alert("CHECK EMAIL OR PASSWORD");';
+        echo 'window.location = "home.html"';
+        echo '</script>';
     }
 
 } catch (PDOException $e) {
